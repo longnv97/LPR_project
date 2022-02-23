@@ -1,0 +1,1 @@
+int RGBToJpeg(char* outputFileName,char* rgb_buffer,int width,int height);

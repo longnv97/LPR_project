@@ -1,0 +1,5 @@
+#!/projects/VS1NL70/oscar/4GNAND/python/python_install/bin/python2.7
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

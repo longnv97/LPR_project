@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "f5b971d0-3183-4263-93c4-1127a76ee635",
+		"name": "ai samples",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "proxy file upload sample",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "/C:/Users/Brian chou/Desktop/aipkg.zip"
+					}
+				},
+				"url": {
+					"raw": "https://192.168.0.11:443/cgi-bin/aiapp?action=upload&size=81178",
+					"protocol": "https",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"11"
+					],
+					"port": "443",
+					"path": [
+						"cgi-bin",
+						"aiapp"
+					],
+					"query": [
+						{
+							"key": "action",
+							"value": "upload"
+						},
+						{
+							"key": "size",
+							"value": "81178"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
